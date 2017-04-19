@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652A035B1EA7E17600D9CD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A035A1EA7E17600D9CD9C /* AppDelegate.swift */; };
+		652A035D1EA7E17600D9CD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A035C1EA7E17600D9CD9C /* ViewController.swift */; };
+		652A03601EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652A035E1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld */; };
+		652A03621EA7E17600D9CD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652A03611EA7E17600D9CD9C /* Assets.xcassets */; };
+		652A03651EA7E17600D9CD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652A03631EA7E17600D9CD9C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652A03571EA7E17600D9CD9C /* Secure Antivirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secure Antivirus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		652A035A1EA7E17600D9CD9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		652A035C1EA7E17600D9CD9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		652A035F1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Secure_Antivirus.xcdatamodel; sourceTree = "<group>"; };
+		652A03611EA7E17600D9CD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		652A03641EA7E17600D9CD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		652A03661EA7E17600D9CD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652A03541EA7E17500D9CD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652A034E1EA7E17500D9CD9C = {
+			isa = PBXGroup;
+			children = (
+				652A03591EA7E17600D9CD9C /* Secure Antivirus */,
+				652A03581EA7E17600D9CD9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652A03581EA7E17600D9CD9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652A03571EA7E17600D9CD9C /* Secure Antivirus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652A03591EA7E17600D9CD9C /* Secure Antivirus */ = {
+			isa = PBXGroup;
+			children = (
+				652A035A1EA7E17600D9CD9C /* AppDelegate.swift */,
+				652A035C1EA7E17600D9CD9C /* ViewController.swift */,
+				652A03611EA7E17600D9CD9C /* Assets.xcassets */,
+				652A03631EA7E17600D9CD9C /* Main.storyboard */,
+				652A03661EA7E17600D9CD9C /* Info.plist */,
+				652A035E1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld */,
+			);
+			path = "Secure Antivirus";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652A03561EA7E17500D9CD9C /* Secure Antivirus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652A03691EA7E17600D9CD9C /* Build configuration list for PBXNativeTarget "Secure Antivirus" */;
+			buildPhases = (
+				652A03531EA7E17500D9CD9C /* Sources */,
+				652A03541EA7E17500D9CD9C /* Frameworks */,
+				652A03551EA7E17500D9CD9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secure Antivirus";
+			productName = "Secure Antivirus";
+			productReference = 652A03571EA7E17600D9CD9C /* Secure Antivirus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652A034F1EA7E17500D9CD9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Devang vadalia";
+				TargetAttributes = {
+					652A03561EA7E17500D9CD9C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2L88R6QMP5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 652A03521EA7E17500D9CD9C /* Build configuration list for PBXProject "Secure Antivirus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 652A034E1EA7E17500D9CD9C;
+			productRefGroup = 652A03581EA7E17600D9CD9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652A03561EA7E17500D9CD9C /* Secure Antivirus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652A03551EA7E17500D9CD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652A03621EA7E17600D9CD9C /* Assets.xcassets in Resources */,
+				652A03651EA7E17600D9CD9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652A03531EA7E17500D9CD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652A035D1EA7E17600D9CD9C /* ViewController.swift in Sources */,
+				652A035B1EA7E17600D9CD9C /* AppDelegate.swift in Sources */,
+				652A03601EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		652A03631EA7E17600D9CD9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652A03641EA7E17600D9CD9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652A03671EA7E17600D9CD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		652A03681EA7E17600D9CD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		652A036A1EA7E17600D9CD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2L88R6QMP5;
+				INFOPLIST_FILE = "Secure Antivirus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devang.Secure-Antivirus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		652A036B1EA7E17600D9CD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2L88R6QMP5;
+				INFOPLIST_FILE = "Secure Antivirus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devang.Secure-Antivirus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652A03521EA7E17500D9CD9C /* Build configuration list for PBXProject "Secure Antivirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652A03671EA7E17600D9CD9C /* Debug */,
+				652A03681EA7E17600D9CD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652A03691EA7E17600D9CD9C /* Build configuration list for PBXNativeTarget "Secure Antivirus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652A036A1EA7E17600D9CD9C /* Debug */,
+				652A036B1EA7E17600D9CD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		652A035E1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				652A035F1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodel */,
+			);
+			currentVersion = 652A035F1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodel */;
+			path = Secure_Antivirus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 652A034F1EA7E17500D9CD9C /* Project object */;
+}
