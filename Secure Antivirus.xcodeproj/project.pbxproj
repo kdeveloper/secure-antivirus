@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2D3B4A1EA9B889002E2BEB /* TopMenuBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D3B491EA9B889002E2BEB /* TopMenuBarViewController.swift */; };
+		1F2D3B4C1EA9B8A2002E2BEB /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D3B4B1EA9B8A2002E2BEB /* BottomViewController.swift */; };
+		1F7529881EA931D6005A889D /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7529871EA931D6005A889D /* MainSplitViewController.swift */; };
 		652A035B1EA7E17600D9CD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A035A1EA7E17600D9CD9C /* AppDelegate.swift */; };
 		652A035D1EA7E17600D9CD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A035C1EA7E17600D9CD9C /* ViewController.swift */; };
 		652A03601EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652A035E1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2D3B491EA9B889002E2BEB /* TopMenuBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMenuBarViewController.swift; sourceTree = "<group>"; };
+		1F2D3B4B1EA9B8A2002E2BEB /* BottomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		1F7529871EA931D6005A889D /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 		652A03571EA7E17600D9CD9C /* Secure Antivirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secure Antivirus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		652A035A1EA7E17600D9CD9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		652A035C1EA7E17600D9CD9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2D3B471EA9B84C002E2BEB /* SplitView */ = {
+			isa = PBXGroup;
+			children = (
+				1F7529871EA931D6005A889D /* MainSplitViewController.swift */,
+			);
+			name = SplitView;
+			sourceTree = "<group>";
+		};
+		1F2D3B481EA9B867002E2BEB /* SplitItem */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D3B491EA9B889002E2BEB /* TopMenuBarViewController.swift */,
+				1F2D3B4B1EA9B8A2002E2BEB /* BottomViewController.swift */,
+			);
+			name = SplitItem;
+			sourceTree = "<group>";
+		};
 		652A034E1EA7E17500D9CD9C = {
 			isa = PBXGroup;
 			children = (
+				1F2D3B481EA9B867002E2BEB /* SplitItem */,
+				1F2D3B471EA9B84C002E2BEB /* SplitView */,
 				652A03591EA7E17600D9CD9C /* Secure Antivirus */,
 				652A03581EA7E17600D9CD9C /* Products */,
 			);
@@ -136,9 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7529881EA931D6005A889D /* MainSplitViewController.swift in Sources */,
 				652A035D1EA7E17600D9CD9C /* ViewController.swift in Sources */,
+				1F2D3B4A1EA9B889002E2BEB /* TopMenuBarViewController.swift in Sources */,
 				652A035B1EA7E17600D9CD9C /* AppDelegate.swift in Sources */,
 				652A03601EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld in Sources */,
+				1F2D3B4C1EA9B8A2002E2BEB /* BottomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +321,7 @@
 				652A036B1EA7E17600D9CD9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
