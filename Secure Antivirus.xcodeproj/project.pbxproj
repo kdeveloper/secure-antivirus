@@ -15,6 +15,7 @@
 		652A03601EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 652A035E1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld */; };
 		652A03621EA7E17600D9CD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652A03611EA7E17600D9CD9C /* Assets.xcassets */; };
 		652A03651EA7E17600D9CD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652A03631EA7E17600D9CD9C /* Main.storyboard */; };
+		652A18A71EAD0E56002EE684 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A18A61EAD0E56002EE684 /* DashBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		652A03611EA7E17600D9CD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		652A03641EA7E17600D9CD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		652A03661EA7E17600D9CD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652A18A61EAD0E56002EE684 /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		652A034E1EA7E17500D9CD9C = {
 			isa = PBXGroup;
 			children = (
+				652A18A51EAD0E2F002EE684 /* Controllers */,
 				1F2D3B481EA9B867002E2BEB /* SplitItem */,
 				1F2D3B471EA9B84C002E2BEB /* SplitView */,
 				652A03591EA7E17600D9CD9C /* Secure Antivirus */,
@@ -87,6 +90,14 @@
 				652A035E1EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld */,
 			);
 			path = "Secure Antivirus";
+			sourceTree = "<group>";
+		};
+		652A18A51EAD0E2F002EE684 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				652A18A61EAD0E56002EE684 /* DashBoardViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				1F7529881EA931D6005A889D /* MainSplitViewController.swift in Sources */,
 				652A035D1EA7E17600D9CD9C /* ViewController.swift in Sources */,
 				1F2D3B4A1EA9B889002E2BEB /* TopMenuBarViewController.swift in Sources */,
+				652A18A71EAD0E56002EE684 /* DashBoardViewController.swift in Sources */,
 				652A035B1EA7E17600D9CD9C /* AppDelegate.swift in Sources */,
 				652A03601EA7E17600D9CD9C /* Secure_Antivirus.xcdatamodeld in Sources */,
 				1F2D3B4C1EA9B8A2002E2BEB /* BottomViewController.swift in Sources */,

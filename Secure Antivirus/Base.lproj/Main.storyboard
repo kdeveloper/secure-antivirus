@@ -658,7 +658,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Secure_Antivirus" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="58" y="-82"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -667,7 +667,7 @@
                     <window key="window" title="Anti virus" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="600" height="270"/>
+                        <rect key="contentRect" x="196" y="240" width="650" height="400"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
@@ -697,16 +697,83 @@
                 </splitViewController>
                 <customObject id="oiB-K3-V73" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2179" y="729"/>
+            <point key="canvasLocation" x="-2208" y="620"/>
         </scene>
         <!--Top Menu Bar View Controller-->
         <scene sceneID="rfm-AQ-w1a">
             <objects>
                 <viewController id="zBG-fJ-3A6" customClass="TopMenuBarViewController" customModule="Secure_Antivirus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="k9r-rP-snB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="700" height="70"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xtA-zt-Cye">
+                                <rect key="frame" x="0.0" y="0.0" width="700" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DE6-oZ-Qod">
+                                        <rect key="frame" x="175" y="0.0" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Home_White" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="EO7-zB-1ru">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="dashBoardClicked:" target="zBG-fJ-3A6" id="1wG-px-AnR"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZ8-JO-U9L">
+                                        <rect key="frame" x="315" y="0.0" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Report_White" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="TYA-dU-asR">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="reportsClicked:" target="zBG-fJ-3A6" id="9up-ar-PTx"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZFE-LY-MlS">
+                                        <rect key="frame" x="385" y="0.0" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Shield_White" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="8uY-lS-tCT">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="shieldClicked:" target="zBG-fJ-3A6" id="Rof-bL-UJD"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N3S-XV-5Kx">
+                                        <rect key="frame" x="455" y="0.0" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Home_icon" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="fGG-oF-QZb">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfX-Vf-SdW">
+                                        <rect key="frame" x="245" y="0.0" width="70" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Scan_White" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="dI9-bW-cHy">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="scanClicked:" target="zBG-fJ-3A6" id="0mI-WZ-7rs"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </customView>
+                        </subviews>
                     </view>
+                    <connections>
+                        <outlet property="backView" destination="xtA-zt-Cye" id="OUW-ua-gNH"/>
+                        <outlet property="btnDashBoard" destination="DE6-oZ-Qod" id="4rr-uY-Mv8"/>
+                        <outlet property="btnReport" destination="gZ8-JO-U9L" id="lZK-Po-gIz"/>
+                        <outlet property="btnScan" destination="IfX-Vf-SdW" id="Jc3-mL-Fgh"/>
+                        <outlet property="btnShield" destination="ZFE-LY-MlS" id="OB4-YE-Msq"/>
+                    </connections>
                 </viewController>
                 <customObject id="9rE-Be-Emi" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -717,7 +784,7 @@
             <objects>
                 <viewController id="IPA-Bd-Tsx" customClass="BottomViewController" customModule="Secure_Antivirus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="WaO-Hq-7Xl">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                        <rect key="frame" x="0.0" y="0.0" width="700" height="450"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                 </viewController>
@@ -725,5 +792,25 @@
             </objects>
             <point key="canvasLocation" x="-1701" y="926"/>
         </scene>
+        <!--Dash Board View Controller-->
+        <scene sceneID="Q1a-Gk-ToF">
+            <objects>
+                <viewController storyboardIdentifier="DashBoardVC" id="amf-wp-qBE" customClass="DashBoardViewController" customModule="Secure_Antivirus" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="znw-Ox-WlV">
+                        <rect key="frame" x="0.0" y="0.0" width="700" height="450"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="Mdz-XQ-y4T" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-847" y="769"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Home_White" width="70" height="70"/>
+        <image name="Home_icon" width="70" height="70"/>
+        <image name="Report_White" width="70" height="70"/>
+        <image name="Scan_White" width="70" height="70"/>
+        <image name="Shield_White" width="70" height="70"/>
+    </resources>
 </document>
